@@ -1,0 +1,40 @@
+header {
+  background-color: darkred;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+  height: 90px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+ul div {
+  width: 400px;
+  padding: 25px;
+  background-image: radial-gradient(gray 70%, #464646 100%);
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul div li {
+  font-weight: 600;
+  color: white;
+}
+
+ul div li span {
+  color: black;
+}
+
+main {
+  background-image: linear-gradient(darkred 0%, black 5%, black 95%, darkred 100%);
+  height: calc(100vh - 90px);
+  overflow: auto;
+}
+
